@@ -1,1 +1,1 @@
-# seoullo_ios
+# seoullo_android
