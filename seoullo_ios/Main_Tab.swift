@@ -35,9 +35,5 @@ class Main_Tab : UITabBarController{
         (tabBar.items![1] as! UITabBarItem).index(ofAccessibilityElement: 1)
         (tabBar.items![2] as! UITabBarItem).index(ofAccessibilityElement: 2)
         
-//        tabBarController?.selectedIndex = 1
-//        tabBarController?.selectedViewController)
-//        
-        
     }
 }

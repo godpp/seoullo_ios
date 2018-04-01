@@ -362,7 +362,7 @@ class MainVC : UIViewController, NetworkCallback{
         segmentedControl.setTitle("주요지점", forSegmentAt: 2)
         segmentedControl.setTitleTextAttributes([NSForegroundColorAttributeName : UIColor.white], for: .selected)
         segmentedControl.setTitleTextAttributes([NSForegroundColorAttributeName : UIColor.init(red: 0/255.0, green: 157/255.0, blue: 76/255.0, alpha: 1.0)], for: .normal)
-    segmentedControl.setBackgroundImage(UIImage(named:"mypage_segment_white.png"), for: .normal, barMetrics: UIBarMetrics.default)
+        segmentedControl.setBackgroundImage(UIImage(named:"mypage_segment_white.png"), for: .normal, barMetrics: UIBarMetrics.default)
         segmentedControl.setBackgroundImage(UIImage(named: "mypage_segment_green.png"), for: .selected, barMetrics: UIBarMetrics.default)
         segmentedControl.frame = CGRect(x: 0, y: 245, width: 375, height: 44)
         

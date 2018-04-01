@@ -42,8 +42,6 @@ class Main_DetailVC : UIViewController, NetworkCallback{
         if (segue.identifier == "hugiSegue") {
             let hugivc = segue.destination as! Main_hugiVC
             hugivc.placeid = gino(placeid)
-            // Now you have a pointer to the child view controller.
-            // You can save the reference to it, or pass data to it.
         }
     }
     
